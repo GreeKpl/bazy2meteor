@@ -1,0 +1,79 @@
+<head>
+  <title>time_test</title>
+</head>
+
+<body>
+  {{> insertData}}
+  {{> searchThreadsCount2013}}
+  {{> searchMostPopularMay2013}}
+  {{> searchAvgPostLen}}
+  {{> searchMostActiveUser}}
+  {{> searchMostActiveCommenter}}
+  {{> searchPostsWithFrodo}}
+  {{> searchPostsOfPeopleFromK}}
+  {{> searchMostFrequentWords}}
+</body>
+
+<template name="insertData">
+  <input id="clean" type="button" value="clean" /><br>
+  <h1>Inserting the data!</h1>
+  <input id="insert" type="button" value="execute" /><br>
+  Elapsed time: <span id="insertr"></span>
+</template>
+
+<template name="searchThreadsCount2013">
+  <h1>Threads in 2013!</h1>
+  <input id="search1" type="button" value="execute" />
+  Elapsed time: <span id="search1r"></span><br>
+  Result: <span id="search1result"></span><br>
+</template>
+
+<template name="searchMostPopularMay2013">
+  <h1>Most popular thread in may 2013!</h1>
+  <input id="search2" type="button" value="execute" />
+  Elapsed time: <span id="search2r"></span><br>
+  Result: <span id="search2result"></span>
+</template>
+
+<template name="searchAvgPostLen">
+  <h1>Avg post len!</h1>
+  <input id="search3" type="button" value="execute" />
+  Elapsed time: <span id="search3r"></span><br>
+  Result: <span id="search3result"></span>
+</template>
+
+<template name="searchMostActiveUser">
+  <h1>Most active user!</h1>
+  <input id="search4" type="button" value="execute" />
+  Elapsed time: <span id="search4r"></span><br>
+  Result: <span id="search4result"></span>
+</template>
+
+<template name="searchMostActiveCommenter">
+  <h1>Most active commentor!</h1>
+  <input id="search5" type="button" value="execute" />
+  Elapsed time: <span id="search5r"></span><br>
+  Result: <span id="search5result"></span>
+</template>
+
+<template name="searchPostsWithFrodo">
+  <h1>Search posts with Frodo!</h1>
+  <input id="search6" type="button" value="execute" />
+  Elapsed time: <span id="search6r"></span><br>
+  Result: <span id="search6result"></span>
+</template>
+
+<template name="searchPostsOfPeopleFromK">
+  <h1>Search number of posts of people from city K...!</h1>
+  <input id="search7" type="button" value="execute" />
+  Elapsed time: <span id="search7r"></span><br>
+  Result: <span id="search7result"></span>
+</template>
+
+<template name="searchMostFrequentWords">
+  <h1>35-th most popular word!</h1>
+  <input id="search8" type="button" value="execute" />
+  Elapsed time: <span id="search8r"></span><br>
+  Result: <span id="search8result"></span>
+</template>
+
